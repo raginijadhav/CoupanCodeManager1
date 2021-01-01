@@ -26,7 +26,7 @@ function addCoupan() {
     coupans.push({ cpn : val });
   }
   getInput();
-}4
+}
 
 function deleteCoupan(){
   var cpn = readlineSync.question('Enter coupan to be deleted : ');
